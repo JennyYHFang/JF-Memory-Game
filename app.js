@@ -124,7 +124,7 @@ function handleMove(evt) {
     }
     finalResult = getFinalResult();
     renderMsg();
-        
+    
 }
 
 //setinterval to update timer

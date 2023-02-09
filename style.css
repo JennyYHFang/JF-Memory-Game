@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom right;
     background-attachment: fixed;
-    background-size: 700px;
+    background-size: 500px;
     margin: 0 auto;
     text-align: center;
     font-size: 40px;
@@ -13,26 +13,26 @@ body {
 }
 
 header > img {
-    width: 30%;
+    width: 15%;
 }
 
 h1 {
-    font-size: 4.5vmin;
+    font-size: 3.5vmin;
     margin-top: 0;
 }
 
 h2 {
-    font-size: 3.5vmin;
+    font-size: 3vmin;
     margin: 0 50px 0 0;
 }
 
 h3 {
-    font-size: 3.5vmin;
+    font-size: 3vmin;
     margin: 0 0 0 50px;
 }
 
 h4 {
-    font-size: 5vmin;
+    font-size: 4vmin;
     color: red;
     margin: 0px;
 }
@@ -61,7 +61,7 @@ h4 {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 20px;
-    max-width:  900px;
+    max-width:  700px;
     margin: 0 auto;
     background: white;
     padding:20px 30px 20px 20px;
@@ -69,9 +69,9 @@ h4 {
 
 button {
     font-family: 'Gochi Hand', cursive;
-    font-size: 3vmin;
+    font-size: 2vmin;
     border-radius: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     cursor:pointer;
 }
 
