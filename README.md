@@ -7,11 +7,11 @@ The Hello Kitty Memory Game is a matching game which consists of 8 pairs of Hell
 
 
 # Screenshots 
- ![Main Page](HK-MainPage.png)
+ ![Main Page](./images/HK-MainPage.png)
 
- ![Win Page](HK-WinPage.png)
+ ![Win Page](./images/HK-WinPage.png)
 
- ![Lose Page](HK-LosePage.png)
+ ![Lose Page](./images/HK-LosePage.png)
 
 
 # Languages and Tool Used:
