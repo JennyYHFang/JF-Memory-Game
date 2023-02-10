@@ -56,7 +56,7 @@ function initialize() {
     totalGuesses = 0;
     totalMatched = 0;
     timeLeft = 60;
-    document.querySelector('h3').innerHTML = 'Timer: ' + timeLeft;
+    document.querySelector('h3').innerHTML = 'Timer: 01:00';
     document.querySelector('h4').innerHTML = '&nbsp;';
     cardEls.forEach(function(el) {
         el.setAttribute('src', `${cardImg['frontCard']}`);
@@ -130,7 +130,6 @@ function handleMove(evt) {
 //setinterval to update timer
 function updateTimer() {
     const clockTimer = document.querySelector('h3');
-    clockTimer.innerHTML = 'Timer: ' + timeLeft;
     if (timeLeft <= 0) {
         timeLeft = null;
         clearInterval(timer);
@@ -140,6 +139,12 @@ function updateTimer() {
         return;
     }
     timeLeft--;
+    if (timeLeft >= 10) {
+    clockTimer.innerHTML = 'Timer: 00:'+ timeLeft;
+    }
+    else {
+        clockTimer.innerHTML = 'Timer: 00:0'+ timeLeft;
+    }
 }
 
 
